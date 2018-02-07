@@ -33,7 +33,8 @@ else:
 	if timepy in zc:
 		try:
 			print('V2Ray 已成功启动！'.decode("utf-8").encode("gb2312"))
-			os.system(xlj + '\core\core\\v2ray.exe')
+			jdjdlj = os.path.join(xlj,'\core\core\v2ray.exe')
+			os.system(jdjdlj)
 			raw_input('按下回车键继续'.decode("utf-8").encode("gb2312"))
 		except:
 			print('错误:未能成功启动 V2Ray请检查文件路径与文件是否存在！'.decode("utf-8").encode("gb2312"))
