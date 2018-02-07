@@ -4,11 +4,11 @@ import core.shatime
 import os
 import shutil
 
-print('\nV2ray 启动器V0.1')
+print('\nV2ray 启动器V0.3')
 
 timepy = core.shatime.times()
 
-lj = '/Users/lucy/Desktop/V2ray/core/time.txt'
+lj = '/Users/lucy/Desktop/V2rayx/V2ray/core/time.txt'
 
 try:
 	with open(lj) as x:
@@ -28,7 +28,7 @@ except:
 else:
 	if timepy in zc:
 		print('V2Ray 已成功启动！')
-		os.system('/Users/lucy/Desktop/V2ray/core/core/v2ray')
+		os.system('/Users/lucy/Desktop/V2rayx/V2ray/core/core/v2ray')
 	else:
 		print('V2Ray 启动失败！')
 		print('V2Ray 密钥过期！')

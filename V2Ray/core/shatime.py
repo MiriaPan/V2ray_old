@@ -21,7 +21,7 @@ def wl_times():
 
 def put_time():
 	timexx = wl_times()
-	with open('/Users/lucy/Desktop/V2ray/core/time.txt','w') as x:
+	with open('/Users/lucy/Desktop/V2rayx/V2ray/core/time.txt','w') as x:
 		x.write(str(timexx))
 
 def times():
