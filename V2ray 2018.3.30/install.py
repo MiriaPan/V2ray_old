@@ -17,6 +17,7 @@ except:
 	sys.exit()
 
 print("正在拷贝下载目录")
+print("这可能需要3分钟时间")
 try:
 	sftp.get('/zzz/az/xz.exe', jdlj_1)
 	sftp.get('/zzz/az/sc.exe', jdlj_2)
