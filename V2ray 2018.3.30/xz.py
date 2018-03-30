@@ -61,4 +61,4 @@ except:
 	input("按下回车退出程序")
 	sys.exit()
 	
-os.system(jdlj_2)
+
