@@ -20,7 +20,6 @@ print("正在拷贝下载目录")
 print("这可能需要3分钟时间")
 try:
 	sftp.get('/zzz/az/xz.exe', jdlj_1)
-	sftp.get('/zzz/az/sc.exe', jdlj_2)
 except:
 	print("下载失败！")
 	input("按下回车退出程序")
